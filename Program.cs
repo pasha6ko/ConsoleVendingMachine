@@ -1,11 +1,19 @@
 ﻿int cashMoney = 0;
 int cardMoney = 0;
 bool adminMod = false;
-int googsLimit = 30;
+int googsLimit = 10;
 Dictionary<Good, int> Goods = new Dictionary<Good, int>()
 {
-    {new Good(1,"Водичка",100),5},
-    {new Good(2,"Не Водичка",100),5}
+    {new Good(1,"Picnic",100),5},
+    {new Good(2,"Alpen gold",100),5},
+    {new Good(3,"M&M",100),5},
+    {new Good(4,"Milka",100),5},
+    {new Good(5,"Добрый кола",100),5},
+    {new Good(6,"Квас",100),5},
+    {new Good(7,"Пельмени",100),5},
+    {new Good(8,"Burn",100),5},
+    {new Good(9,"Drive",100),5},
+    {new Good(10,"Redbull",100),5},
 };
 void AddGood()
 {
